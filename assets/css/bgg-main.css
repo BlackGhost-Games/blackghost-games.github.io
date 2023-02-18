@@ -141,7 +141,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #181A1B;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -886,7 +886,7 @@ Banner Style
   text-transform: capitalize;
   font-size: 15px;
   font-weight: 400;
-  color: #2a2a2a;
+  color: #ffffff;
   margin-bottom: 8px;
 }
 
@@ -895,7 +895,7 @@ Banner Style
   position: relative;
   font-weight: 700;
   font-size: 20px;
-  color: #2a2a2a;
+  color: #ffffff;
 }
 
 .main-banner .left-content h2 {
@@ -940,9 +940,9 @@ Features Style
 .features .features-content {
   z-index: 2;
   position: relative;
-  background-color: #fff;
+  background-color: #181A1B;
   border-radius: 50px;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px #666666;
 }
 
 .features-item {
@@ -950,7 +950,7 @@ Features Style
   padding: 30px;
   border-radius: 50px;
   background: rgb(255,255,255);
-  background: linear-gradient(105deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(105deg, #181A1B 0%, #181A1B 100%);
   transition: background-color .5s;
   -webkit-transition: background-color .5s;
   -o-transition: background-color .5s;
@@ -967,11 +967,11 @@ Features Style
 }
 
 .features-item:hover p {
-  color: #fff;
+  color: #ffffff;
 }
 
 .features-item:hover .line-dec {
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgb(255, 255, 255);
 }
 
 .first-feature:hover .icon {
@@ -1035,7 +1035,7 @@ Features Style
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #ffffff;
   position: relative;
   transition: all 0.5s;
 }
@@ -1043,7 +1043,7 @@ Features Style
 .features-item .line-dec {
   width: 100px;
   height: 2px;
-  background-color: rgba(51,204,197,0.3);
+  background-color: rgb(51, 204, 196);
   margin: 30px auto;
   transition: all 0.5s;
 }
@@ -1058,7 +1058,7 @@ Features Style
   position: relative;
   z-index: 1;
   margin-top: -50px;
-  background-color: #f5f5f5;
+  background-color: #1E2021;
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;
   padding: 110px 0px 50px 0px;
@@ -1106,7 +1106,7 @@ Features Style
   border-style: solid;
   position: absolute;
   top: 0;
-  border-color: #fd6a54;
+  border-color: #ff2200;
 }
 .progress .progress-left .progress-bar {
   left: 100%;
@@ -1129,7 +1129,7 @@ Features Style
 }
 .progress .progress-value {
   text-align: center;
-  color: #2a2a2a;
+  color: #ffffff;
   display: flex;
   width: 100%;
   border-radius: 50%;
@@ -1305,7 +1305,7 @@ About Us Style
   font-size: 16px;
   margin-top: 5px;
   font-weight: 400;
-  color: #2a2a2a;
+  color: #ffffff;
   text-transform: capitalize;
 }
 
@@ -1529,7 +1529,7 @@ contact
 
 form#contact {
   position: relative;
-  background-color: #fff;
+  background-color: #181A1B;
   padding: 60px 80px;
   border-radius: 50px;
   text-align: center;
@@ -1544,7 +1544,7 @@ form#contact input {
   outline: none;
   font-size: 15px;
   font-weight: 300;
-  color: #2a2a2a;
+  color: #ffffff;
   padding: 0px 20px;
   margin-bottom: 20px;
 }
@@ -1566,7 +1566,7 @@ form#contact textarea {
   outline: none;
   font-size: 15px;
   font-weight: 300;
-  color: #2a2a2a;
+  color: #ffffff;
   padding: 15px 20px;
   margin-bottom: 20px;
 }
