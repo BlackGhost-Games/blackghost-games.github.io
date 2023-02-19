@@ -975,11 +975,19 @@ Features Style
 }
 
 .first-feature:hover .icon {
-  background-image: url(../images/features-icon-white-01.png);
+  background-image: url(../images/team.png);
 }
 
 .second-feature:hover .icon {
-  background-image: url(../images/features-icon-white-02.png);
+  background-image: url(../images/c-sharp.png);
+}
+
+.third-feature:hover .icon {
+  background-image: url(../images/multiplayer.png);
+}
+
+.fourth-feature:hover .icon {
+  background-image: url(../images/singleplayer.png);
 }
 
 .features-item .number h6 {
@@ -1014,11 +1022,19 @@ Features Style
 }
 
 .first-feature .icon {
-  background-image: url(../images/features-icon-black-01.png);
+  background-image: url(../images/team.png);
 }
 
 .second-feature .icon {
-  background-image: url(../images/features-icon-black-02.png);
+  background-image: url(../images/c-sharp.png);
+}
+
+.third-feature .icon {
+  background-image: url(../images/multiplayer.png);
+}
+
+.fourth-feature .icon {
+  background-image: url(../images/singleplayer.png);
 }
 
 .features-item .icon {
@@ -1366,7 +1382,7 @@ Services Style
 .service-item h4 {
   font-size: 22px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #ececec;
   margin-bottom: 15px;
 }
 
