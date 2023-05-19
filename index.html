@@ -603,40 +603,43 @@
             <div class="row">
               <div class="col-lg-6 offset-lg-3">
                 <div class="section-heading">
-                  <h6>Contact Us (IS CURRENTLY NOT AVAILABLE)</h6>
+                  <h6>Contact Us (IN PROGRESS)</h6>
                   <h2><FONT COLOR="white">Fill Out The Form Below To <span>Get</span> In <em>Touch</em> With Us</FONT></h2>
                 </div>
               </div>
               <div class="col-lg-9">
                 <div class="row">
                   <div class="col-lg-6">
-                    <fieldset>
-                      <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                    <fieldset id="fs-frm-inputs">
+                      <input for="full-name" type="name" name="name" id="name" placeholder="Name or Discord#1234" autocomplete="on" required>
                     </fieldset>
                   </div>
                   <div class="col-lg-6">
                     <fieldset>
-                      <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
+                      <input for="email-address" type="text" name="_replyto" id="email-address" placeholder="Your Email" required=""> <!--pattern="[^ @]*@[^ @]*" -->
                     </fieldset>
                   </div>
                   <div class="col-lg-6">
                     <fieldset>
-                      <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-6">
-                    <fieldset>
-                      <input type="subject" name="subject" id="subject" placeholder="Subject" autocomplete="on">
+                      <input for="section" name="section" id="section"> <!--type="subject" --> <!--placeholder="Subject" autocomplete="on"-->
+                      <select name="apply-for" id="apply-for" required="">
+                        <option value="" selected="" disabled="">Select</option>
+                        <option value="Developer">Developer</option>
+                        <option value="Moderator">Moderator</option>
+                        <option value="Designer">Designer</option>
+                        <option value="Supporter">Supporter</option>
+                        <option value="Partnership">Partnership</option>
+                      </select>
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>  
+                      <textarea rows="5" name="message" id="message" placeholder="The best placeholder the world, why? because the placeholder is a normal placeholder :D" required=""></textarea>  
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <input><button type="submit" id="form-submit" class="main-button" value="Send">Send Message Now</button>
+                      <input><button type="hidden" name="_subject" id="email-subject" value="Department Contact Form Submission">Send Message Now</button>
                     </fieldset>
                   </div>
                 </div>
@@ -662,23 +665,24 @@
 
 
 
-  <form id="fs-frm" name="job-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xqkojrkv" method="post">
+  <form id="fs-frm" name="apply-for-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xqkojrkv" method="post">
     <fieldset id="fs-frm-inputs">
-      <label for="name">Name or Discord+tag</label>
+      <label for="name">Name or Discord+Tag</label>
       <input type="text" name="name" id="name" placeholder="Name or Discord#0000" required="">
-      <label for="email-address">Email Address</label>
-      <input type="email" name="_replyto" id="email-address" placeholder="email@email.email" required="">
-      <label for="job">Job</label>
-      <select name="job" id="job" required="">
+      <label for="email">Your Email</label>
+      <input type="email" name="_replyto" id="email" placeholder="email@email.email" required="">
+      <label for="apply-for">Apply for</label>
+      <select name="apply-for" id="apply-for" required="">
         <option value="" selected="" disabled="">Select</option>
+        <option value="Developer">Developer</option>
         <option value="Moderator">Moderator</option>
         <option value="Designer">Designer</option>
-        <option value="Developer">Developer</option>
-        <option value="Marketing">Marketing</option>
+        <option value="Supporter">Supporter</option>
+        <option value="Partnership">Partnership</option>
       </select>
       <label for="message">Message</label>
-      <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-      <input type="hidden" name="_subject" id="email-subject" value="Job Contact Form Submission">
+      <textarea rows="5" name="message" id="message" placeholder="The best placeholder the world, why? because the placeholder is a normal placeholder :D" required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Application form Submission">
     </fieldset>
     <input type="submit" value="Send Message">
   </form><style>/* reset */
