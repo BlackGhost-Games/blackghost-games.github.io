@@ -662,11 +662,21 @@
 
   <body>
     <h2>Student Contact Form</h2>
-    <form action="mailto:blackghost.games.official@gmail.com" method="post" enctype="text/plain">
-       Student Name:<br><input type="text" name="sname"> <br>
-       Student Subject:<br><input type="text" name="ssubject"><br>
-       <input type="submit" value="Send">
-    </form>
+    <form
+  action="https://formspree.io/f/mayzkryz"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
  </body>
 
   <footer>
